@@ -1,12 +1,9 @@
-package com.stefan.java;
+package com.stefan.java.util;
 
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Hello world!
- */
-public class App {
+public class MyHashMap {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<>();
         for (int i = 0; i < 20; i++) {
